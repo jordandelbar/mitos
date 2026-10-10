@@ -1011,7 +1011,7 @@ dependencies = [
 [[package]]
 name = "filesentry"
 version = "0.2.2"
-source = "git+https://github.com/mitos-editor/filesentry?rev=c28743a0e7c87a0239a59ffa61653279e4d53a5f#c28743a0e7c87a0239a59ffa61653279e4d53a5f"
+source = "git+https://github.com/jordandelbar/filesentry?rev=01a5a2fdd824b294b70be2c97582e79d0f85ae97#01a5a2fdd824b294b70be2c97582e79d0f85ae97"
 dependencies = [
  "bitflags 2.13.2",
  "core-foundation-sys",

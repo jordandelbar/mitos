@@ -174,8 +174,9 @@ termina = "0.4"
 termini = "1"
 
 # System integration
-# Use our fork until the watcher fix for Mitos #102 is available upstream.
-filesentry = { git = "https://github.com/mitos-editor/filesentry", rev = "c28743a0e7c87a0239a59ffa61653279e4d53a5f" }
+# jordandelbar fork: mitos-editor/filesentry plus the crawl_root symlink fix
+# (siblings after a symlink went unwatched). Revert once merged upstream.
+filesentry = { git = "https://github.com/jordandelbar/filesentry", rev = "01a5a2fdd824b294b70be2c97582e79d0f85ae97" }
 dunce = "1.0"
 etcetera = "0.11"
 libc = "0.2.186"

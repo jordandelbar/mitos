@@ -178,7 +178,7 @@ termini = "1"
 
 # System integration
 # Use our fork until the watcher fix for Mitos #102 is available upstream.
-filesentry = { git = "https://github.com/mitos-editor/filesentry", rev = "c4df04e37131b62eae44a195617db66e099c7431" }
+filesentry = { git = "https://github.com/mitos-editor/filesentry", rev = "9bd65726b92710c66a55e87158e4c2e600a8ac63" }
 dunce = "1.0"
 etcetera = "0.11"
 libc = "0.2.186"
